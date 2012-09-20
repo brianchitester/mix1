@@ -1,0 +1,61 @@
+body {
+	background: url(img/b2.jpg) no-repeat center center fixed;
+	color:white;
+	padding-top: 60px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1{
+	font-family: 'Kaushan Script', cursive;
+	font-style:italic;
+	font-size: 66px;
+	margin-bottom: 60px;
+	text-align:center;
+}
+
+h2{
+	font-size: 36px;
+	line-height: 40px;
+}
+
+h3{
+	font-size: 26px;
+	line-height: 46px;
+}
+
+audio{
+	margin-bottom: 15px;
+}
+
+.guts{
+	padding: 20px;
+	background-color:rgba(1,0,1,0.5);
+}
+
+#trackInfo{
+	margin-bottom:15px;
+}
+
+#tracks li{
+	font-size:18px;
+	line-height:25px;
+	margin-left:5px;
+}
+
+#tracks li:hover{
+	cursor:pointer;
+}
+
+#current{
+	font-weight:bold;
+}
+
+#download{
+	display:block;
+  float:right;
+	margin:20px;
+}
+
